@@ -1,0 +1,26 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "mycli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mycli"
+  ],
+  "bin": {
+    "my-node-cli": "./index.js"
+  },
+  "type": "module",
+  "author": "Ilaria",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/checkbox": "^4.1.2",
+    "@inquirer/prompts": "^7.3.2",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.4.2"
+  }
+}
